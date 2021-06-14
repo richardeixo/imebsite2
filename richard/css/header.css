@@ -1,0 +1,30 @@
+.ico-fb{
+	background: url(../imagens/fb.png) no-repeat;
+	width: 25px;
+	height: 25px;
+}
+.ico-fb:hover{
+	background: url(../imagens/fb2.png) no-repeat;
+	width: 25px;
+	height: 25px;
+}
+.ico-ig{
+	background: url(../imagens/ig.png) no-repeat;
+	width: 25px;
+	height: 25px;
+}
+.ico-ig:hover{
+	background: url(../imagens/ig2.png) no-repeat;
+	width: 25px;
+	height: 25px;
+}
+.ico-in{
+	background: url(../imagens/in.png) no-repeat;
+	width: 25px;
+	height: 25px;
+}
+.ico-in:hover{
+	background: url(../imagens/in2.png) no-repeat;
+	width: 25px;
+	height: 25px;
+}
