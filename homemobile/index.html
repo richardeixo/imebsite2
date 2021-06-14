@@ -10,53 +10,79 @@
     
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style-slider-m.css">
+    <link rel="stylesheet" href="./style-searchbar-m.css">
     <link rel="stylesheet" href="./style-lowerbar-m.css">
     <title>Document</title>
 </head>
 <body>
+    <section class="slider">
+        <div class="container-fluid container-eixo slider-eixo">  
+
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
     
-    <div class="container-fluid container-eixo slider-eixo">  
-
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-
-                <div class="item active">
-                    <div class="objeto-slider">
-                        <div class="texto-slider">
-                            <h1>
-                                Resultados Online
-                            </h1>
-                            <p>
-                                Agora você pode consultar os seus
-                                resultados dos seus exames
-                                em qualquer lugar
-                            </p>
+                    <div class="item active">
+                        <div class="objeto-slider">
+                            <div class="texto-slider">
+                                <h1>
+                                    Resultados Online
+                                </h1>
+                                <p>
+                                    Agora você pode consultar os seus
+                                    resultados dos seus exames
+                                    em qualquer lugar
+                                </p>
+                            </div>
                         </div>
                     </div>
+            
+                    <div class="item">
+                        <div class="objeto-slider">
+                            <div class="texto-slider">
+                                <h1>
+                                    Resultados Online
+                                </h1>
+                                <p>
+                                    Agora você pode consultar os seus
+                                    resultados dos seus exames
+                                    em qualquer lugar
+                                </p>
+                            </div>
+                        </div>
+                    </div>   
+    
                 </div>
-        
-                <div class="item">
-                    <div class="objeto-slider">
-                        <div class="texto-slider">
-                            <h1>
-                                Resultados Online
-                            </h1>
-                            <p>
-                                Agora você pode consultar os seus
-                                resultados dos seus exames
-                                em qualquer lugar
-                            </p>
-                        </div>
-                    </div>
-                </div>   
-
+                
             </div>
             
         </div>
-        
-    </div>
+    </section>
+
+    <section class="searchbar">
+        <div class="container-fluid container-eixo">
+            <div class="quadrante-searchbar">
+                <div class="conteudo-searchbar">
+                    <div class="rowb esearch">
+                        <div class="search">
+                            <button type="submit" class="searchButton">
+                                <img src="./assets/imagens/searchbar/lupa.png" class="img-eixo">
+                             </button>
+                            <input type="text" class="searchTerm" placeholder="O que você procura?">
+                         </div>
+                    </div>
+                    <div class="rowb">
+                        <div class="botoes-baixos">
+                            <a href="#"><button class="botao-procura">Resultados</button></a>
+                            <a href="#"><button class="botao-procura">Convênios</button></a>
+                            <a href="#"><button class="botao-procura">Unidades</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="barra-fixa">
         <div class="container-fluid container-eixo lowerbar">
@@ -89,6 +115,8 @@
             </div>            
         </div>
     </section>
+
+
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
 </body>
