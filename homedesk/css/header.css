@@ -1,3 +1,6 @@
+.top-bar{
+	padding: 20px 0px;
+}
 .top-left{
 	display: flex;
 	align-items: center;
@@ -15,11 +18,16 @@
 	display: flex;
 	justify-content: flex-end;
     align-items: center;
+    height: 66px;
+}
+.rsociais{
+	padding: 0px 20px;
 }
 .ico-fb{
 	background: url(../imagens/fb.png) no-repeat;
 	width: 25px;
 	height: 25px;
+	margin-right: 10px;
 }
 .ico-fb:hover{
 	background: url(../imagens/fb2.png) no-repeat;
@@ -30,6 +38,7 @@
 	background: url(../imagens/ig.png) no-repeat;
 	width: 25px;
 	height: 25px;
+	margin-right: 10px;
 }
 .ico-ig:hover{
 	background: url(../imagens/ig2.png) no-repeat;
@@ -45,4 +54,45 @@
 	background: url(../imagens/in2.png) no-repeat;
 	width: 25px;
 	height: 25px;
+}
+.btn-agende{
+	padding: 0px 12px;
+	font-weight: bold;
+}
+.btn-exames{
+	color: #fff;
+	display: inline-flex;
+	margin: 0px 14px;
+}
+.btn-exames:hover{
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+.nav-bar{
+	background: #0076BF;
+}
+.menu{
+	display: inline-flex;
+	float: right;
+}
+.menu ul li{
+	display: inline-flex;
+	position: relative;
+	float: right;
+}
+.menu ul li a{
+	color: #fff;
+	padding: 0px 12px;
+}
+.menu ul li a:hover{
+	text-decoration: none;
+	font-weight: bold;
+}
+.exames{
+	background-color: #EAEFF3;
+}
+.img-exames img{
+	width: 100%;
+	padding-bottom: 20px;
 }
