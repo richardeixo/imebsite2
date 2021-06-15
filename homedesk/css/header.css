@@ -62,7 +62,9 @@
 .btn-exames{
 	color: #fff;
 	display: inline-flex;
-	margin: 0px 14px;
+	margin: 14px 0px;
+	border: none;
+    background: none;
 }
 .btn-exames:hover{
 	color: #fff;
@@ -95,4 +97,22 @@
 .img-exames img{
 	width: 100%;
 	padding-bottom: 20px;
+}
+.drop-exames{
+	border-top: solid 1px #fff;
+}
+.drop-exames .coluna{
+	float:left;
+	width: 25%;
+	margin-bottom: 40px;
+}
+.drop-exames .coluna a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+.drop-exames .coluna span{
+	font-weight: bold;
+	color: #fff;
+	line-height: 85px;
 }
