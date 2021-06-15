@@ -2,13 +2,13 @@
 <html>
 <head>
 	<title></title>
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/header.css">
 </head>
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-6 top-left">
 				<img src="imagens/logo.png" />
 				<div class="tab-climed">
 					<ul>

@@ -1,5 +1,20 @@
-.rsociais{
+.top-left{
 	display: flex;
+	align-items: center;
+}
+.tab-climed ul li{
+	display: inline-flex;
+}
+.tab-climed ul li a{
+	color: black;
+}
+.tab-climed ul li a:hover{
+	text-decoration: none;
+}
+.top-right, .rsociais{
+	display: flex;
+	justify-content: flex-end;
+    align-items: center;
 }
 .ico-fb{
 	background: url(../imagens/fb.png) no-repeat;
