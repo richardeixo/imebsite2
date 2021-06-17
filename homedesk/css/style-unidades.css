@@ -1,0 +1,17 @@
+.col-unidades{
+	display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+.btn-unidades{
+	border-radius: 0px 20px 20px 0px;
+    text-align: left;
+    margin: 5px 0px;
+    background: #0076BF;
+    border:none;
+    color: #fff;
+    padding: 4px 8px;
+}
+.unidades h1{
+    color: #9C9C9C;
+}

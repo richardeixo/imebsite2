@@ -7,6 +7,8 @@
 <link rel="stylesheet" type="text/css" href="css/style-exames.css">
 <link rel="stylesheet" type="text/css" href="css/style-content-blog.css">
 <link rel="stylesheet" type="text/css" href="css/style-newsletter.css">
+<link rel="stylesheet" type="text/css" href="css/style-unidades.css">
+<link rel="stylesheet" type="text/css" href="css/style-footer.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript">
 	var visibilidade = false;
@@ -39,7 +41,8 @@
 </script>
 </head>
 <body>
-	<div class="container">
+	<div class="container-fluid branco">
+	<div class="container top">
 		<div class="row top-bar">
 			<div class="col-md-6 top-left">
 				<img src="imagens/logo.png" />
@@ -59,6 +62,7 @@
 				<button type="button" class="btn btn-primary btn-agende">AGENDE <br/>SEU EXAME</button>
 			</div>
 		</div>
+	</div>
 	</div>
 	<div class="container-fluid nav-bar">
 		<div class="container">
@@ -179,9 +183,10 @@
 	</div>
 </section>
 
-<section class="conteudo-blog-m">
-        <h2>CONTEÚDOS DA SAÚDE</h2>
-        <div class="container">
+<section class="conteudo-blog">
+	<div class="container">
+        <h1>CONTEÚDOS DA SAÚDE</h1>
+        <div class="row">
             <div class="cards-conteudo">
                 <div class="card-conteudo">
                     <div class="texto-conteudo">
@@ -202,7 +207,7 @@
         </div>
 
 
-        <div class="container">
+        <div class="row">
             <div class="cards-conteudo">
                 <div class="card-conteudo">
                     <div class="texto-conteudo">
@@ -223,7 +228,7 @@
             
         </div>
 
-        <div class="container">
+        <div class="row">
             <div class="cards-conteudo">
                 <div class="card-conteudo-video">
                     <iframe width="545" height="250" src="https://www.youtube.com/embed/P8A2iXI2JdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -237,7 +242,29 @@
 
             
         </div>
+        </div>
+    </section>
 
+    <section class="unidades">
+
+    	<div class="container">
+			<h1>UNIDADES</h1>
+    		<div class="col-md-5 col-unidades">
+    			<button class="btn-unidades" >Centro Clínico Sul</button>
+    			<button class="btn-unidades" >Centro Clínico Advance</button>
+    			<button class="btn-unidades" >Vitrium Centro Médico</button>
+    			<button class="btn-unidades" >Asa Norte Edifício Dr Crispim</button>
+    			<button class="btn-unidades" >Edifício Buriti</button>
+    			<button class="btn-unidades" >Taguatinga</button>
+    			<button class="btn-unidades" >M Norte</button>
+    			<button class="btn-unidades" >Gama</button>
+    		</div>    		
+
+    		<div class="col-md-7 col-mapa">
+    			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14869.329050573284!2d-50.33824953017947!3d-21.29788353040526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x949615ee674ee3d9%3A0xe469fb0352a8168!2sSuper%20Muffato%20-%20Birigui!5e0!3m2!1spt-BR!2sbr!4v1623898042742!5m2!1spt-BR!2sbr" width="100%" height="288" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    		</div>   
+
+    	</div>
     </section>
 
     <section class="newsletter">
@@ -250,3 +277,139 @@
     			<img src="imagens/img-news.png">
     		</div>
     </section>
+
+    <footer>
+    	<div class="container-fluid branco">
+    	<div class="container espaco">
+    		<div class="footer-info">  		
+    			<img src="imagens/logo.png">
+    			<div class="f-rsociais">
+					<a href="#"><div class="f-ico-fb"></div></a>
+					<a href="#"><div class="f-ico-ig"></div></a>
+					<a href="#"><div class="f-ico-in"></div></a>
+				</div>
+				<h1>CENTRAL DE ATENDIMENTO</h1>
+				<span>(61) 3326 0033 | 3771 3800</span>
+				<span>(61) 9976-4074</span>
+				<button type="button" class="btn btn-primary btn-agende">AGENDE <br/>SEU EXAME</button>
+			</div>
+
+			<div class="footer-menu">  		
+    			<nav class="f-menu">
+				<ul>
+					<li><a href="#">Convênios</a></li>
+					<li><a href="#">Resultado de Exames</a></li>
+					<li><a href="#">Unidades</a></li>
+					<li><a href="#">Cuide da sua Saúde</a></li>
+					<li><a href="#">Fale Conosco</a></li>
+					<li><a href="#">Materiais Gratuitos</a></li>
+				</ul>
+				</nav>
+				<div class="widgets">
+				<div class="widget-um">
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+				</div>
+
+				<div class="widget-dois">
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+				</div>
+
+				<div class="widget-tres">
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+					<a href="#">Convênios</a>
+				</div>
+				</div>
+			</div>
+    	</div>
+    	</div>
+    	<div class="container espaco">
+    		<h1>ENDEREÇOS</h1>
+    		<div class="enderecos">
+    			<div class="col-md-3">
+    				<strong>Centro Clínico Sul</strong>
+    					Torre I
+						SHLS 716 conj. L, Centro Clínico Sul Torre I
+						salas T121/124, Brasília- DF – CEP: 70390-700
+						Torre II (Tomografia)
+						SHLS 716 conj. L, Centro Clínico Sul Torre II
+						sala T223, Brasília- DF – CEP: 70390-700
+						Torre II (Medicina Nuclear)
+						SHLS 716 conj. L, Centro Clínico Sul Praça da
+						Saúde sala W162, Brasília- DF – CEP: 70390-700
+						C
+    			</div>
+    			<div class="col-md-3">
+    				<strong>Centro Clínico Sul</strong>
+    					Torre I
+						SHLS 716 conj. L, Centro Clínico Sul Torre I
+						salas T121/124, Brasília- DF – CEP: 70390-700
+						Torre II (Tomografia)
+						SHLS 716 conj. L, Centro Clínico Sul Torre II
+						sala T223, Brasília- DF – CEP: 70390-700
+						Torre II (Medicina Nuclear)
+						SHLS 716 conj. L, Centro Clínico Sul Praça da
+						Saúde sala W162, Brasília- DF – CEP: 70390-700
+						C
+    			</div>
+    			<div class="col-md-3">
+    				<strong>Centro Clínico Sul</strong>
+    					Torre I
+						SHLS 716 conj. L, Centro Clínico Sul Torre I
+						salas T121/124, Brasília- DF – CEP: 70390-700
+						Torre II (Tomografia)
+						SHLS 716 conj. L, Centro Clínico Sul Torre II
+						sala T223, Brasília- DF – CEP: 70390-700
+						Torre II (Medicina Nuclear)
+						SHLS 716 conj. L, Centro Clínico Sul Praça da
+						Saúde sala W162, Brasília- DF – CEP: 70390-700
+						C
+    			</div>
+    			<div class="col-md-3">
+    				<strong>Centro Clínico Sul</strong>
+    					Torre I
+						SHLS 716 conj. L, Centro Clínico Sul Torre I
+						salas T121/124, Brasília- DF – CEP: 70390-700
+						Torre II (Tomografia)
+						SHLS 716 conj. L, Centro Clínico Sul Torre II
+						sala T223, Brasília- DF – CEP: 70390-700
+						Torre II (Medicina Nuclear)
+						SHLS 716 conj. L, Centro Clínico Sul Praça da
+						Saúde sala W162, Brasília- DF – CEP: 70390-700
+						C
+    			</div>
+    		</div>
+    	</div>
+    	<div class="container-fluid azul">
+    		<div class="container">
+    			<div class="footer-bottom">
+    			<div class="copyright">
+    				<span>Imeb - <?php echo date("Y"); ?> | Copyright</span>
+    				<span>Responsável Técnico: Alaor Barra Sobrinho - CRM-DF 3029</span>
+    			</div>
+    			<div class="eixo">
+    				Powered By: <img src="imagens/eixo-logo.png">
+    			</div>
+    			</div>
+    		</div>
+    	</div>
+    </footer>

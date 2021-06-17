@@ -1,3 +1,11 @@
+.top{
+	background: #fff;
+	width: 1170px;
+	margin: auto;
+}
+.branco{
+	background: #fff;
+}
 .top-bar{
 	padding: 20px 0px;
 }
@@ -130,4 +138,10 @@
 	border: none;
 	border-bottom: solid 1px #77787B;
 	color: #77787B;
+}
+body{
+	background-color: #EAEFF3;
+}
+section {
+	margin: 60px 0px;
 }

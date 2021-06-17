@@ -5,7 +5,11 @@
     justify-content: center;
     align-items: center;
     padding: 50px 0px;
+    margin: 0;
 }
 .coluna-txt, .coluna-img{
 	width: 25%;
+}
+.coluna-txt{
+	color: #fff;
 }
