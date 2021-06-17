@@ -1,0 +1,11 @@
+.newsletter{
+	background-color: #0076BF;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+.coluna-txt, .coluna-img{
+	width: 25%;
+}

@@ -1,0 +1,30 @@
+.cards-conteudo{
+	margin-left: 10px;
+    display: flex;
+}
+.card-conteudo{
+    background: linear-gradient( 
+90deg
+ , rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%), url(../imagens/home_slide_animal.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.card-conteudo-video{
+	max-width: 85vw;
+    height: 250px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}

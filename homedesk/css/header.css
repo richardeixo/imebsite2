@@ -5,6 +5,9 @@
 	display: flex;
 	align-items: center;
 }
+.tab-climed ul{
+	display: flex;
+}
 .tab-climed ul li{
 	display: inline-flex;
 }
@@ -81,7 +84,7 @@
 .menu ul li{
 	display: inline-flex;
 	position: relative;
-	float: right;
+	float: left;
 }
 .menu ul li a{
 	color: #fff;
@@ -91,15 +94,9 @@
 	text-decoration: none;
 	font-weight: bold;
 }
-.exames{
-	background-color: #EAEFF3;
-}
-.img-exames img{
-	width: 100%;
-	padding-bottom: 20px;
-}
 .drop-exames{
 	border-top: solid 1px #fff;
+	display: none;
 }
 .drop-exames .coluna{
 	float:left;
@@ -115,4 +112,22 @@
 	font-weight: bold;
 	color: #fff;
 	line-height: 85px;
+}
+.menu-medico{
+	display:none;
+}
+.menu-cliente{
+	display:block;
+}
+.ativa{
+	background: none;
+	border: none;
+	border-bottom: solid 2px #2A70B6;
+	color: #2A70B6;
+}
+.inativa{
+	background: none;
+	border: none;
+	border-bottom: solid 1px #77787B;
+	color: #77787B;
 }
