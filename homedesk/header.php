@@ -9,6 +9,9 @@
 <link rel="stylesheet" type="text/css" href="css/style-newsletter.css">
 <link rel="stylesheet" type="text/css" href="css/style-unidades.css">
 <link rel="stylesheet" type="text/css" href="css/style-footer.css">
+<link rel="stylesheet" type="text/css" href="css/style-slide.css">
+<link rel="stylesheet" type="text/css" href="css/style-depoimentos.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript">
 	var visibilidade = false;
@@ -165,6 +168,57 @@
 			</div>
 		</div>
 	</div>
+<section class="slider">
+        <div class="container-fluid container-eixo slider-eixo">  
+
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+    
+                    <div class="item active">
+                        <div class="objeto-slider">
+                            <div class="texto-slider">
+                                <h1>
+                                    Resultados Online
+                                </h1>
+                                <p>
+                                    Agora você pode consultar os seus
+                                    resultados dos seus exames
+                                    em qualquer lugar
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="item">
+                        <div class="objeto-slider">
+                            <div class="texto-slider">
+                                <h1>
+                                    Resultados Online
+                                </h1>
+                                <p>
+                                    Agora você pode consultar os seus
+                                    resultados dos seus exames
+                                    em qualquer lugar
+                                </p>
+                            </div>
+                        </div>
+                    </div>   
+    
+                </div>
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span></a>
+            </div>
+            
+        </div>
+</section>
 
 <section class="exames">
 	<div class="container">
@@ -243,6 +297,125 @@
             
         </div>
         </div>
+    </section>
+
+    <section class="depoimentos">
+    	<div class="container">
+    		<h1>DEPOIMENTOS DE NOSSOS CLIENTES</h1>
+    		<div class="card-depoimento">
+    			<div class="col-img">
+    			<img src="imagens/home_slide_animal.jpg">
+    			</div>
+    			<div class="col-txt">
+    			<p class="texto">“Atendimento para uma tomografia sem contraste de emergência
+foi bem rápido, todos os atendentes e técnicos foram muito
+simpáticos. Recomendo."</p>
+    			<strong>Aline Almeida</strong>
+    			<div class="rating-stars">
+    			<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				</div>
+				</div>
+    		</div>
+
+    		<div class="card-depoimento">
+    			<div class="col-img">
+    			<img src="imagens/home_slide_animal.jpg">
+    			</div>
+    			<div class="col-txt">
+    			<p class="texto">“Atendimento para uma tomografia sem contraste de emergência
+foi bem rápido, todos os atendentes e técnicos foram muito
+simpáticos. Recomendo."</p>
+    			<strong>Aline Almeida</strong>
+    			<div class="rating-stars">
+    			<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				</div>
+				</div>
+    		</div>
+
+    		<div class="card-depoimento">
+    			<div class="col-img">
+    			<img src="imagens/home_slide_animal.jpg">
+    			</div>
+    			<div class="col-txt">
+    			<p class="texto">“Atendimento para uma tomografia sem contraste de emergência
+foi bem rápido, todos os atendentes e técnicos foram muito
+simpáticos. Recomendo."</p>
+    			<strong>Aline Almeida</strong>
+    			<div class="rating-stars">
+    			<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				</div>
+				</div>
+    		</div>
+
+    		<div class="card-depoimento">
+    			<div class="col-img">
+    			<img src="imagens/home_slide_animal.jpg">
+    			</div>
+    			<div class="col-txt">
+    			<p class="texto">“Atendimento para uma tomografia sem contraste de emergência
+foi bem rápido, todos os atendentes e técnicos foram muito
+simpáticos. Recomendo."</p>
+    			<strong>Aline Almeida</strong>
+    			<div class="rating-stars">
+    			<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				</div>
+				</div>
+    		</div>
+
+    		<div class="card-depoimento">
+    			<div class="col-img">
+    			<img src="imagens/home_slide_animal.jpg">
+    			</div>
+    			<div class="col-txt">
+    			<p class="texto">“Atendimento para uma tomografia sem contraste de emergência
+foi bem rápido, todos os atendentes e técnicos foram muito
+simpáticos. Recomendo."</p>
+    			<strong>Aline Almeida</strong>
+    			<div class="rating-stars">
+    			<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				</div>
+				</div>
+    		</div>
+
+    		<div class="card-depoimento">
+    			<div class="col-img">
+    			<img src="imagens/home_slide_animal.jpg">
+    			</div>
+    			<div class="col-txt">
+    			<p class="texto">“Atendimento para uma tomografia sem contraste de emergência
+foi bem rápido, todos os atendentes e técnicos foram muito
+simpáticos. Recomendo."</p>
+    			<strong>Aline Almeida</strong>
+    			<div class="rating-stars">
+    			<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				</div>
+				</div>
+    		</div>
+    	</div>
     </section>
 
     <section class="unidades">
@@ -413,3 +586,5 @@
     		</div>
     	</div>
     </footer>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>

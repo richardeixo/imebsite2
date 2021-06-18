@@ -1,0 +1,22 @@
+.checked {
+  color: orange;
+}
+.card-depoimento{
+	background: #fff;
+    padding: 25px;
+    border-radius: 50px;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    float: left;
+}
+.col-img img{
+	width: 120px;
+    border-radius: 50%;
+    padding: 20px;
+}
+.col-txt p{
+	margin: 0;
+}
