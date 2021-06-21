@@ -1,0 +1,26 @@
+.container-eixo {
+    padding: 0px !important;
+}
+.img-eixo {
+    max-width: 100%;
+}
+.card-depoimento{
+    padding: 20px;
+}
+.foto-depoimento {
+    text-align: center;
+}
+.img-cliente {
+    max-width: 50%;
+    border-radius: 180px;
+}
+.texto-depoimento {
+    text-align: center;
+    margin: 10px 0px;
+}
+.estrelas {
+    text-align: center;
+}
+.img-star {
+    max-width: 50%;
+}

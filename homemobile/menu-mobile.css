@@ -1,0 +1,82 @@
+.navbar-header{
+    display: flex;
+    align-items: center;
+}
+.navbar-brand {
+    margin: auto;
+}
+.navbar-default .navbar-toggle {
+    border-color:none !important;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: none !important;
+}
+.img-ico-menu-m{
+    max-width: 90px;
+    transform: translate(0%,-20%);
+}
+.btn-menu-agendar{
+    border: none;
+    max-width: 80px;
+    color: white;
+    background: #2575bb;
+    border-radius: 20px;
+    padding: 5px 0px;
+    font-size: 10px;
+    font-weight: bold;
+}
+#bs-example-navbar-collapse-1 {
+    height: 100vh;
+    color: white;
+    background: #2575bb;
+    border: none;
+}
+.nav-tabs {
+    border: none;
+}
+.nav-tabs a{
+    background: #2575bb;
+    border: none;
+    color:white;
+
+
+
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-nav {
+    padding-left: 10px;
+    max-width: 90vw;
+}
+#bs-example-navbar-collapse-1 > ul > li > div > div > div.panel-heading > ul > li > a {
+    background: none;
+
+    background: none;
+    border-top: none;
+    border-bottom: 2px solid white;
+    border-right: none;
+    border-left: none;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus { 
+    color: white;    
+}
+#bs-example-navbar-collapse-1 > ul > li > div > div > div.panel-heading > ul > li.active > a{
+    border-bottom: 2px solid #214a87;
+}
+
+
+body > nav > div > div.navbar-header > button {
+    border: none;
+}
+.homecontent {
+    margin-top: -21px;
+}
+.depoimentos h2{
+    color: #929595;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 5%;
+    padding-top: 40px;
+}
