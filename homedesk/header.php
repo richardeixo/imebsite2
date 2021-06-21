@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title></title>
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/header.css">
 <link rel="stylesheet" type="text/css" href="css/style-exames.css">
 <link rel="stylesheet" type="text/css" href="css/style-content-blog.css">
@@ -42,6 +42,31 @@
     	document.getElementById("btn-medico").classList.remove("inativa");
     	document.getElementById("btn-medico").classList.add("ativa");
     }
+     function clientem() {
+    	document.getElementById("menu-medico-m").style.display = "none";
+    	document.getElementById("menu-cliente-m").style.display = "block";
+    	document.getElementById("btn-cliente-m").classList.add("ativa-m");
+    	document.getElementById("btn-cliente-m").classList.remove("inativa-m");
+    	document.getElementById("btn-medico-m").classList.remove("ativa-m");
+    	document.getElementById("btn-medico-m").classList.add("inativa-m");
+    }
+    function medicom() {
+    	document.getElementById("menu-medico-m").style.display = "block";
+    	document.getElementById("menu-cliente-m").style.display = "none";
+    	document.getElementById("btn-cliente-m").classList.add("inativa-m");
+    	document.getElementById("btn-cliente-m").classList.remove("ativa-m");
+    	document.getElementById("btn-medico-m").classList.remove("inativa-m");
+    	document.getElementById("btn-medico-m").classList.add("ativa-m");
+    }
+    /* Open the sidenav */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+/* Close/hide the sidenav */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
 </script>
 </head>
 <body>
@@ -169,28 +194,56 @@
 			</div>
 		</div>
 	</div>
+<!--<div id="mySidenav" class="sidenav">
+	<div class="container-menu">
+	<img src="imagens/logo.png" />
+	<div class="tab-climed">
+					<ul>
+						<li><button id="btn-cliente-m" class="ativa" onclick="clientem()">Cliente</button></li>
+						<li><button id="btn-medico-m" class="inativa" onclick="medicom()">Médico</button></li>
+					</ul>
+				</div>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="menu-m menu-cliente-m" id="menu-cliente-m">
+					<a href="#">Convênios</a>
+					<a href="#">Resultado de Exames</a>
+					<a href="#">Unidades</a>
+					<a href="#">Cuide da sua Saúde</a>
+					<a href="#">Fale Conosco</a>
+					<a href="#">Materiais Gratuitos</a>
+				</div>
+				<div class="menu-m menu-medico-m" id="menu-medico-m">
+			
+					<a href="#">Médico</a>
+					<a href="#">Médico 2</a>
+					<a href="#">Médico 3</a>
+				
+			</div>
+  <div class="rsociais-m">
+					<a href="#"><div class="ico-fb"></div></a>
+					<a href="#"><div class="ico-ig"></div></a>
+					<a href="#"><div class="ico-in"></div></a>
+				</div>
+			</div>
+
+</div>
 	<section class="menu-mobile">
 		<div class="container-fluid branco">     
+
           <nav role="navigation">
-            <div id="menuToggle">
-              <input type="checkbox" />
-                <span></span>
-                <span></span>
-                <span></span>
-            <ul id="menu">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Info</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
+
+            <div class="col-xs-4 left-m" id="menuToggle">
+            	<span onclick="openNav()">open</span>
+             
+            
            </div>
-           <img src="imagens/logo.png" />
-           <button type="button" class="btn btn-primary btn-agende">AGENDE <br/>SEU EXAME</button>
+           <div class="col-xs-4 mid-m"><img src="imagens/logo.png" /></div>
+           <div class="col-xs-4 right-m"><button type="button" class="btn btn-primary btn-agende">AGENDE <br/>SEU EXAME</button></div>
           </nav>
         </div>
        </div>
     </div>
-	</section>
+	</section>-->
 <section class="slider">
         <div class="container-fluid container-eixo slider-eixo">  
 
