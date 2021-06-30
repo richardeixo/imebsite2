@@ -10,7 +10,7 @@
 	font-size: 35px;
 }
 .box-conteudo p{
-	font-weight: bold;
+	font-weight: 100;
 	color: #8C8F91;
 	font-size: 20px;
 }
@@ -44,4 +44,22 @@
 }
 .map-detalhe a{
 	width: 50%;
+}
+.cobertura{
+	margin-top: 60px;
+}
+.cobertura p{
+	font-weight: 500;
+}
+.exames-title{
+	font-weight: 700 !important;
+}
+.espaco{
+	height: 50px;
+}
+.card-exame-video{
+	display: inline-flex;
+    width: 30%;
+    column-gap: 30px;
+    flex-direction: row;
 }

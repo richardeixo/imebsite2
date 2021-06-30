@@ -1,0 +1,11 @@
+.blue-banner {
+    background: #0e7ac0;
+    height: 80vh;
+    display: flex;
+    align-items: flex-end;
+}
+.card-material{
+	border: 1px solid grey;
+	border-radius: 25px;
+	width: 50%;
+}
