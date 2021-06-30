@@ -1,0 +1,26 @@
+.card-material {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    max-width: 840px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.imgtxt {
+    display: flex;
+    align-items: center;
+}
+button {
+    background: #107abe;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 300px;
+    border-radius: 20px;
+}
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
