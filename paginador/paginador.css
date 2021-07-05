@@ -1,0 +1,22 @@
+.pagination{
+    display: flex;
+}
+
+ul, li, p, a{
+    font-size: 30px;
+    color: #2d71b5;
+}
+body > section > nav > ul > li:nth-child(2) {
+    background: #2d71b5;
+    color: white;
+    padding: 10px;
+    border-radius: 92px;
+    height: 50px;
+}
+
+.ativo{
+    color: white !important;
+}
+li {
+    margin: 0px 10px;
+}
