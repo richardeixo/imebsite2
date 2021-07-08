@@ -288,17 +288,20 @@ function closeNav() {
                 <div class="container control-slider">
                 	<div class="control-left">
 		                <a  href="#carousel-example-generic" role="button" data-slide="prev">
-						    <span style="color:#fff"><</span>
+						    <span style="color:#fff"><img width="30px" src="imagens/c-left.png"></span>
 					  	</a>
 				  	</div>
 
-				  	<div class="control-dots">
-				  		<span style="color: #fff; margin: auto;">* * *</span>
+				  	<div class="control-dots ">
+				  		<ol class="c-dots carousel-indicators">
+				  			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				  			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				  		</ol>
 				  	</div>
 
 				  	<div class="control-right">
 					    <a href="#carousel-example-generic" role="button" data-slide="next">
-						    <span style="color:#fff">></span>
+						    <span style="color:#fff"><img width="30px" src="imagens/c-right.png"></span>
 						</a>
 					</div>
             	</div>
