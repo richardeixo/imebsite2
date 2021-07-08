@@ -6,7 +6,7 @@
 }
 .box-conteudo h1{
 	color: #8C8F91;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 35px;
 }
 .box-conteudo p{
@@ -59,8 +59,8 @@
 }
 .card-exame-video{
 	display: inline-flex;
-    width: 30%;
-    column-gap: 30px;
+    width: 100%;
+    column-gap: 40px;
     flex-direction: row;
 }
 .tipo-eco{

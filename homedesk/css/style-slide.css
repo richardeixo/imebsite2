@@ -19,7 +19,7 @@
     text-align: center;
     margin: 0px auto;
     padding: 0px 8px;
-    padding-bottom: 70px;
+    padding-bottom: 200px;
 }
 .texto-slider h1 {
     color: white;
@@ -33,4 +33,21 @@
 }
 .slider{
     margin-top: 0px !important;
+}
+.control-slider{
+    display: flex;
+    transform: translate(0px, -170px);
+    padding: 0px 70px;
+}
+.control-left{
+    width: 33.33%;
+}
+.control-dots{
+    width: 33.33%;
+    display: inherit;
+}
+.control-right{
+    width: 33.33%;
+    display: flex;
+    flex-direction: row-reverse;
 }

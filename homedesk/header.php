@@ -11,7 +11,8 @@
 <link rel="stylesheet" type="text/css" href="css/style-footer.css">
 <link rel="stylesheet" type="text/css" href="css/style-slide.css">
 <link rel="stylesheet" type="text/css" href="css/style-depoimentos.css">
-<link rel="stylesheet" type="text/css" href="css/style-menu-m.css">
+<link rel="stylesheet" type="text/css" href="css/style-searchbar.css">
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -127,7 +128,7 @@ function closeNav() {
 					<a href="#">Parede abdominal</a>
 					<a href="#">Parótica</a>
 					<a href="#">Próstata via abdominal</a>
-					<button type="button">VER TODOS</button>
+					<button class="btn-drop" type="button">VER TODOS</button>
 				</div>
 
 				<div class="coluna">
@@ -139,7 +140,7 @@ function closeNav() {
 					<a href="#">Perfusão Cerebral</a>
 					<a href="#">Fígado e Vias Biliares</a>
 					<a href="#">Miocárdica</a>
-					<button type="button">VER TODOS</button>
+					<button class="btn-drop" type="button">VER TODOS</button>
 				</div>
 
 				<div class="coluna">
@@ -162,7 +163,7 @@ function closeNav() {
 					<a href="#">Articulação temporomandibular</a>
 					<a href="#">Coluna</a>
 					<a href="#">Coxa</a>
-					<button type="button">VER TODOS</button>
+					<button class="btn-drop" type="button">VER TODOS</button>
 				</div>
 
 				<div class="coluna">
@@ -284,20 +285,53 @@ function closeNav() {
                     </div>   
     
                 </div>
-                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
+                <div class="container control-slider">
+                	<div class="control-left">
+		                <a  href="#carousel-example-generic" role="button" data-slide="prev">
+						    <span style="color:#fff"><</span>
+					  	</a>
+				  	</div>
 
-    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span></a>
-            </div>
+				  	<div class="control-dots">
+				  		<span style="color: #fff; margin: auto;">* * *</span>
+				  	</div>
+
+				  	<div class="control-right">
+					    <a href="#carousel-example-generic" role="button" data-slide="next">
+						    <span style="color:#fff">></span>
+						</a>
+					</div>
+            	</div>
+        	</div>
             
         </div>
 </section>
 
-<section class="exames">
+<section class="searchbar">
+        <div class="container container-search">
+            <div class="quadrante-searchbar">
+                <div class="conteudo-searchbar">
+                    <div class="rowb esearch">
+                        <div class="search">
+                            <button type="submit" class="searchButton">
+                                <img src="imagens/lupa.png" class="img-eixo">
+                             </button>
+                            <input type="text" class="searchTerm" placeholder="O que você procura?">
+                         </div>
+                    </div>
+                    <div class="rowb">
+                        <div class="botoes-baixos">
+                            <a href="#"><button class="botao-procura">Resultados</button></a>
+                            <a href="#"><button class="botao-procura">Convênios</button></a>
+                            <a href="#"><button class="botao-procura">Unidades</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section style="margin-top: -200px;" class="exames">
 	<div class="container">
 		<h1 class="titulo-exames">EXAMES</h1>
 		<div class="box-img-exames">
