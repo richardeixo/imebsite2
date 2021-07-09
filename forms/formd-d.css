@@ -48,3 +48,6 @@ input {
     border-radius: 80px;
     margin-bottom: 20px;
 }
+.imagem-form img {
+    border-radius: 20px;
+}
