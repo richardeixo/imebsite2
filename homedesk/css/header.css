@@ -32,7 +32,7 @@ h1, h2, h3, h4, span, p, a {
 	display: flex;
 	justify-content: flex-end;
     align-items: center;
-    height: 112px;
+    height: 66px;
 }
 .rsociais{
 	padding: 0px 20px;
@@ -70,8 +70,14 @@ h1, h2, h3, h4, span, p, a {
 	height: 25px;
 }
 .btn-agende{
-	padding: 0px 12px;
-	font-weight: bold;
+	padding: 5px 12px;
+	background: #0e7ac0;
+    border: none;
+    color: #fff;
+    font-family: 'Montserrat';
+    line-height: 1;
+    font-weight: 600;
+    border-radius: 10px;
 }
 .btn-exames{
 	color: #fff;
@@ -147,4 +153,11 @@ body{
 }
 section {
 	margin: 60px 0px;
+}
+.btn-drop{
+	background: #748ec3;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 3px 9px;
 }

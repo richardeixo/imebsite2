@@ -39,12 +39,11 @@
 	display: block;
 }
 .footer-info{
-	width: 35%;
-	float: left;
+	display: flex;
+    justify-content: space-between;
 }
 .footer-menu{
-	width: 65%;
-	float: left;
+	display: inline-flex;
 }
 .f-menu ul{
 	padding: 0;
@@ -59,7 +58,11 @@
 }
 .widgets{
 	display: flex;
-	padding-top: 50px;
+    padding-top: 25px;
+    GAP: 104PX;
+    margin-left: 97px;
+    color: #000;
+    font-weight: 600;
 }
 .widget-um, .widget-dois, .widget-tres{
 	width: 33.33%
@@ -67,6 +70,7 @@
 .widgets a{
 	display: block;
 	color: #000;
+	margin-bottom: 5px;
 }
 .azul{
 	background: #0076BF;
@@ -95,4 +99,23 @@
 .espaco{
 	margin-top: 50px;
 	margin-bottom: 60px;
+}
+.footer-esq h1{
+	font-weight: 900;
+    letter-spacing: -2px;
+    font-size: 20px;
+}
+.footer-esq p{
+	color: #000;
+    font-weight: 600;
+    margin: 0px 0px 8px 0px;
+}
+.footer-esq button{
+	background: #0e7ac0;
+    border: none;
+    color: #fff;
+    font-family: 'Montserrat';
+    padding: 5px 20px;
+    border-radius: 10px;
+}
 }

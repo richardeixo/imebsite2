@@ -1,3 +1,25 @@
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+0% { opacity: 0;}
+100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+.fadeIn {
+-webkit-animation: fadeIn 0.5s ease-in-out;
+-moz-animation: fadeIn 0.5s ease-in-out;
+-o-animation: fadeIn 0.5s ease-in-out;
+animation: fadeIn 0.5s ease-in-out;
+}
 .blue-banner {
     background: #0e7ac0;
     height: 80vh;
@@ -32,7 +54,26 @@
 .mat-climed ul li{
 	display: inline-flex;
 }
-.mat-climed .inativa{
+.mat-climed .inativa-c{
+	background: #fff;
+    border: none;
+    padding: 7px 30px;
+    border-radius: 20px 0px 0px 20px;
+    color: #0e7ac0;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    border: 1px solid #0e7ac0;
+}
+.mat-climed .ativa-c{
+	background: #0e7ac0;
+    border: none;
+    padding: 7px 30px;
+    border-radius: 20px 0px 0px 20px;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.mat-climed .inativa-m{
 	background: #fff;
     border: none;
     padding: 7px 30px;
@@ -42,12 +83,15 @@
     font-weight: bold;
     border: 1px solid #0e7ac0;
 }
-.mat-climed .ativa{
+.mat-climed .ativa-m{
 	background: #0e7ac0;
     border: none;
     padding: 7px 30px;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 0px 20px 20px 0px;
     color: #fff;
     font-family: 'Montserrat';
     font-weight: bold;
+}
+#medico{
+	display: none;
 }
