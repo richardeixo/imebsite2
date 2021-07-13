@@ -85,7 +85,12 @@ h1, h2, h3, h4, span, p, a {
 	margin: 14px 0px;
 	border: none;
     background: none;
+    align-items: center;
 }
+.btn-exames img{
+	margin-right: 5px;
+}
+
 .btn-exames:hover{
 	color: #fff;
 	font-weight: bold;
@@ -160,4 +165,10 @@ section {
     color: #fff;
     font-weight: 600;
     padding: 3px 9px;
+}
+.nav-bar .down{
+	background: url(../imagens/down.svg);
+}
+.img-ativa{
+	transform: rotate(270deg);
 }

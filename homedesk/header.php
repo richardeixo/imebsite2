@@ -12,7 +12,6 @@
 <link rel="stylesheet" type="text/css" href="css/style-slide.css">
 <link rel="stylesheet" type="text/css" href="css/style-depoimentos.css">
 <link rel="stylesheet" type="text/css" href="css/style-searchbar.css">
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -22,9 +21,11 @@
 
         if (visibilidade) {//Se a variável visibilidade for igual a true, então...
             document.getElementById("drop-exames").style.display = "none";//Ocultamos a div
+            document.getElementById("img-exam").classList.add("img-ativa");
             visibilidade = false;//alteramos o valor da variável para falso.
         } else {//ou se a variável estiver com o valor false..
             document.getElementById("drop-exames").style.display = "block";//Exibimos a div..
+            document.getElementById("img-exam").classList.remove("img-ativa");
             visibilidade = true;//Alteramos o valor da variável para true.
         }
     }
@@ -97,7 +98,7 @@ function closeNav() {
 	</div>
 	<div class="container-fluid nav-bar">
 		<div class="container">
-			><button class="btn-exames" onclick="ocultarExibir()"> Exames</button>
+			<button class="btn-exames" onclick="ocultarExibir()"> <img width="10px" id="img-exam" class="img-ativa" src="imagens/down.svg">Exames</button>
 
 			<nav class="menu menu-cliente" id="menu-cliente">
 				<ul>
@@ -315,11 +316,11 @@ function closeNav() {
             <div class="quadrante-searchbar">
                 <div class="conteudo-searchbar">
                     <div class="rowb esearch">
-                        <div class="search">
-                            <button type="submit" class="searchButton">
-                                <img src="imagens/lupa.png" class="img-eixo">
-                             </button>
+                        <div class="search">                            
                             <input type="text" class="searchTerm" placeholder="O que você procura?">
+                            <button type="submit" class="searchButton">
+                                <img src="imagens/lupa.png" width="25px" class="img-eixo">
+                            </button>
                          </div>
                     </div>
                     <div class="rowb">
