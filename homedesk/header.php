@@ -73,6 +73,7 @@ function closeNav() {
 </script>
 </head>
 <body>
+	<div class="menu-fixo">
 	<div class="container-fluid branco">
 	<div class="container top">
 		<div class="row top-bar">
@@ -197,6 +198,7 @@ function closeNav() {
 			</div>
 		</div>
 	</div>
+</div>
 <!--<div id="mySidenav" class="sidenav">
 	<div class="container-menu">
 	<img src="imagens/logo.png" />
@@ -561,7 +563,9 @@ function closeNav() {
     		<div class="coluna-txt">
     			<h1>DICAS DE SAÚDE</h1>
     			<span>Receba Dicas de Saúde Atualizadas</span>
-    			<input type="text" name="" placeholder="Digite seu email"><button type="button">Enviar</button>
+    			<div class="campo-txt">
+    				<input type="text" name="" placeholder="Digite seu email"><button style="margin-left: 2px;" type="button">Enviar</button>
+    			</div>
     		</div>
     		<div class="coluna-img">
     			<img src="imagens/img-news.png">

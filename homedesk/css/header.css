@@ -110,7 +110,7 @@ h1, h2, h3, h4, span, p, a {
 }
 .menu ul li a{
 	color: #fff;
-	padding: 0px 12px;
+	padding: 0px 22px;
 }
 .menu ul li a:hover{
 	text-decoration: none;
@@ -171,4 +171,9 @@ section {
 }
 .img-ativa{
 	transform: rotate(270deg);
+}
+.menu-fixo{
+	    position: sticky;
+    top: 0;
+    z-index: 99;
 }
